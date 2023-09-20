@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <title>Showcase</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./research.html">Research</a>
+        <a
+          href="./showcase.html"
+          class="active"
+          >Showcase</a
+        >
+        <a href="./activity-log.html">Activity Log</a>
+        <a href="./journey.html">Journey</a>
+        <a href="./reference.html">Reference</a>
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header>
+      <div class="page-header common-wrp">
+        <h1>Game Played</h1>
+      </div>
+    </header>
+
+    <!-- Game Example slider -->
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <!-- Game 1 -->
+          <img
+            id="slide-1"
+            src="./img/arma.jpg"
+          />
+          <div
+            class="nav"
+            id="nav-1"
+          >
+            <a
+              href="#slide-4"
+              class="prev"
+              ><button class="ripple">
+                <img src="./img/previous.png" />
+              </button>
+            </a>
+            <a
+              href="#slide-2"
+              class="next"
+              ><button class="ripple">
+                <img src="./img/forward.png" />
+              </button>
+            </a>
+          </div>
+
+          <!-- Game 2 -->
+          <img
+            id="slide-2"
+            src="./img/minecraft.png"
+          />
+          <div
+            class="nav"
+            id="nav-2"
+          >
+            <a
+              href="#slide-1"
+              class="prev"
+              ><button class="ripple">
+                <img src="./img/previous.png" />
+              </button>
+            </a>
+            <a
+              href="#slide-3"
+              class="next"
+              ><button class="ripple">
+                <img src="./img/forward.png" />
+              </button>
+            </a>
+          </div>
+
+          <!-- Game 3 -->
+          <img
+            id="slide-3"
+            src="img/re-mission.png"
+          />
+          <div
+            class="nav"
+            id="nav-3"
+          >
+            <a
+              href="#slide-2"
+              class="prev"
+              ><button class="ripple">
+                <img src="./img/previous.png" />
+              </button>
+            </a>
+            <a
+              href="#slide-4"
+              class="next"
+              ><button class="ripple">
+                <img src="./img/forward.png" />
+              </button>
+            </a>
+          </div>
+
+          <!-- Game 4 -->
+          <img
+            id="slide-4"
+            src="./img/virtonomics.png"
+          />
+          <div
+            class="nav"
+            id="nav-4"
+          >
+            <a
+              href="#slide-3"
+              class="prev"
+              ><button class="ripple">
+                <img src="./img/previous.png" />
+              </button>
+            </a>
+            <a
+              href="#slide-1"
+              class="next"
+              ><button class="ripple">
+                <img src="./img/forward.png" />
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- nav-btn -->
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Role Play Video -->
+
+    <section class="common-wrp">
+      <iframe
+        width="942"
+        height="530"
+        src="https://www.youtube.com/embed/My3W4C68XMQ"
+        title="Roleplay PCT 0101"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- End of Page -->
+
+    <section class="endOfPage-section">
+      <div class="endOfPage-text">
+        <p>Not <span>Enough ?</span></p>
+      </div>
+      <a href="./activity-log.html">
+        <div class="cta-btn-wrp">
+          <div class="cta-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+            >
+              <path
+                d="M12 18L24 30L36 18"
+                stroke="#C7C7C7"
+                stroke-width="6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </a>
+    </section>
+  </body>
+</html>
